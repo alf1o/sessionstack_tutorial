@@ -1,5 +1,7 @@
 # Event Loop and Async Programming
 
+[original article](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)
+
 JavaScript is a single-threaded language, this means that its Engine can only have one call-stack and basically execute only one chunk of code at a time.
 
 This is a limitation, because in case of a very expensive operation our whole application will be stuck and unresponsive during its execution.

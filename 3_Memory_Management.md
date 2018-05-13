@@ -1,5 +1,7 @@
 # Memory Management
 
+[original article](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)
+
 Some programming languages provide methods for the developer to directly handle memory allocations.
 For example the C language has the `malloc` and the `free` functions.
 

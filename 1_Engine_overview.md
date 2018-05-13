@@ -1,5 +1,7 @@
 # Environment
 
+[original article](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
+
 The host environment in which JS runs provides an Engine, a task (or callback) queue, an event loop and a bunch of APIs.
 
 The JS code is executed by the Engine.

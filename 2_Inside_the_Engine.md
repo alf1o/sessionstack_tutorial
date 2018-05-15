@@ -18,7 +18,7 @@ The V8 Engine uses several threads internally:
 - another thread, called Profiler thread, watches the code for "hot" chunks and notifies the runtime to optimize that chunk.
 - a bunch of other threads handle garbage collection.
 
-When first executing the code, the V8 compiles JS code into machine, without actually optimizing it. This allows for a fast start in the execution process.
+When first executing the code, the V8 compiles JS code into machine code, without actually optimizing it. This allows for a fast start in the execution process.
 
 As the code runs, the Profiler thread gathers data, and based on this data the second compiler thread optimizes the code.
 

@@ -34,6 +34,8 @@ Bits are organized together into larger groups that we can use to represent numb
 Usually numbers are stored as either 4 bits or 8 bits (1 byte).
 While characters are either 16 bits or 32 bits.
 
+**NB:** characters are first represented as numbers by an encoding like UTF-8 and then they can be stored.
+
 In the OS memory is stored all data used by all our programs and the programs code, including the OS code.
 
 When we write a program the compiler can calculate at compile time the memory that the program will need based on the primitive data-types inside it.
